@@ -8,7 +8,7 @@ export const portfolioData: PortfolioData = {
     github: 'github.com/twldnjs',
   },
   introduction:
-    '안녕하세요, 프론트엔드 개발자 손지원입니다.\n소개글 추후 추가 예정입니다.',
+    '안녕하세요, 프론트엔드 개발자 손지원입니다.\n동료가 편안하게 읽을 수 있는 코드를 작성하기 위해 공부하고, 의견을 나누며 개발하고 있습니다.\n유지보수가 용이한 코드를 작성하는 것은 미래의 저를 위한 일이라고 생각합니다.',
   workExperiences: [
     {
       company: '(주) 티윈',

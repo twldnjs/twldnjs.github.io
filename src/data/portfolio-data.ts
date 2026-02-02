@@ -8,7 +8,7 @@ export const portfolioData: PortfolioData = {
     github: 'github.com/twldnjs',
   },
   introduction:
-    '안녕하세요, 프론트엔드 개발자 손지원입니다.\n동료가 편안하게 읽을 수 있는 코드를 작성하기 위해 공부하고, 의견을 나누며 개발하고 있습니다.\n유지보수가 용이한 코드를 작성하는 것은 미래의 저를 위한 일이라고 생각합니다.',
+    '안녕하세요, 프론트엔드 개발자 손지원입니다.\n협업하는 동료가 편하게 읽고 바로 이해할 수 있는 코드를 지향합니다. \n당장의 기능 구현을 넘어 유지보수가 용이한 코드를 고민하는 과정이 비즈니스의 안정성을 지키고 미래의 저를 성장시킨다고 믿습니다.',
   workExperiences: [
     {
       company: '(주) 티윈',
@@ -41,7 +41,7 @@ export const portfolioData: PortfolioData = {
         },
         {
           title: 'LG MyCup App',
-          period: '2024.08 - 2025.05',
+          period: '2024.07 - 2025.05',
           summary:
             '텀블러 세척 관리 앱 (Flutter 앱 내 WebView 프론트 영역 운영)',
           skills: [
@@ -61,7 +61,7 @@ export const portfolioData: PortfolioData = {
         },
         {
           title: 'LG ShopTime TV App 리뉴얼',
-          period: '2024.08 - 2025.05',
+          period: '2024.01 - 2025.06',
           summary:
             'LG 스마트 TV 커머스 앱으로 Vue 기반 앱을 React + Enact로 구조로 전환',
           skills: [
@@ -109,10 +109,10 @@ export const portfolioData: PortfolioData = {
   projects: [
     {
       name: 'BIDDLY',
-      period: '2025. 12 - 2026. 02',
+      period: '2025. 12 - 진행 중',
       githubLink: 'https://github.com/twldnjs',
       description:
-        '의뢰자가 견적·포트폴리오·메시지를 비교해 업체/개인을 선택하는 경쟁입찰 플랫폼',
+        '의뢰자가 견적·포트폴리오·메시지를 비교해 업체/개인을 선택하는 경쟁입찰 플랫폼. 현재 모바일 앱(React Native) MVP 모델을 개발 중입니다',
       skills: [
         'React Native (Expo),Next.js',
         'Typescript',
@@ -123,7 +123,9 @@ export const portfolioData: PortfolioData = {
       ],
       features: [
         'Next.js / Typescript / React Native 학습 및 적용',
-        'Zustand (UI/Local state) + React Query (Server state) 활용하여 상태관리',
+        'React Native (Expo) 기반 모바일 퍼스트 개발: 다양한 모바일 기기 환경에서 입찰 공고와 견적 비교가 원활하게 이루어지도록 사용자 중심 인터페이스 구현 중',
+        'Zustand를 활용해 모달, 필터 등 UI 상태를 가볍게 관리하고, React Query의 캐싱 기능을 이용해 반복적인 입찰 데이터 요청을 최적화하여 서버 상태 관리',
+        'Supabase 기반 실시간 인프라 구축: 데이터베이스 설계 및 Auth 연동',
       ],
     },
   ],

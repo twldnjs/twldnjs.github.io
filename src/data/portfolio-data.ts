@@ -110,7 +110,7 @@ export const portfolioData: PortfolioData = {
     {
       name: 'BIDDLY',
       period: '2025. 12 - 진행 중',
-      githubLink: 'https://github.com/twldnjs',
+      githubLink: 'https://github.com/biddly-app/biddly-app',
       title:
         '의뢰자가 견적·포트폴리오·메시지를 비교해 업체/개인을 선택하는 경쟁입찰 플랫폼',
       description: '현재 모바일 앱(React Native) MVP 모델을 개발 중 입니다.',

@@ -37,10 +37,10 @@ export function WorkExperience({ experiences }: WorkExperienceProps) {
               className='flex flex-col gap-4 md:flex-row md:gap-0'
             >
               {/* Left */}
-              <div className='w-full md:w-1/5'>
+              <div className='w-full md:w-1/5 mr-2'>
                 <h3 className='text-xl font-semibold'>{exp.company}</h3>
                 <p className='my-2.5'>{exp.position}</p>
-                <p className='my-2.5'>{exp.period}</p>
+                <p className='my-2.5 whitespace-pre-line '>{exp.period}</p>
               </div>
 
               {/* Right */}
@@ -60,8 +60,8 @@ export function WorkExperience({ experiences }: WorkExperienceProps) {
                           <h4 className='text-lg font-semibold'>
                             {proj.title}
                           </h4>
-                          <div className='whitespace-pre-line text-justify text-sm text-neutral-600 '>
-                            {proj.period}
+                          <div className='text-justify text-l font-medium  '>
+                            | {proj.period}
                           </div>
                         </div>
 

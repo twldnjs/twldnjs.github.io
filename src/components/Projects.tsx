@@ -14,11 +14,14 @@ export function Projects({ projects }: ProjectsProps) {
   return (
     <Section title='Project.'>
       <Divider />
-      <div className='flex flex-col gap-24'>
+      <div className='flex flex-col gap-12 md:gap-24'>
         {projects.map((project, index) => (
           <FadeIn key={index} delay={index * 0.1}>
-            <div key={index} className='flex'>
-              <div className='w-1/5'>
+            <div
+              key={index}
+              className='flex flex-col gap-4 md:flex-row md:gap-0'
+            >
+              <div className='w-full md:w-1/5 mr-2'>
                 <h3 className='text-xl font-semibold'>{project.name}</h3>
                 <p className='my-2.5'>{project.period}</p>
                 <a

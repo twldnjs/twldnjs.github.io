@@ -22,7 +22,7 @@ export const portfolioData: PortfolioData = {
           period: '2025.06 - 2025.11',
           summary: 'LG 스마트 TV 전용 커머스 앱 운영 및 기능 개발',
           skills: [
-            'React',
+            'React.js',
             'Javascript',
             'Redux(Thunk)',
             'Enact.js(WebOS TV)',
@@ -45,7 +45,7 @@ export const portfolioData: PortfolioData = {
           summary:
             '텀블러 세척 관리 앱을 Flutter 앱 내 WebView 프론트 영역 운영',
           skills: [
-            'React',
+            'React.js',
             'Javascript',
             'Recoil',
             'Styled-component',
@@ -63,9 +63,9 @@ export const portfolioData: PortfolioData = {
           title: 'LG ShopTime TV App 리뉴얼',
           period: '2024.01 - 2025.06',
           summary:
-            'LG 스마트 TV 커머스 앱으로 Vue 기반 앱을 React + Enact로 구조로 전환',
+            'LG 스마트 TV 커머스 앱으로 Vue 기반 앱을 React.js + Enact로 구조로 전환',
           skills: [
-            'React',
+            'React.js',
             'Javascript',
             'Redux(Thunk)',
             'Enact.js(WebOS TV)',
@@ -87,7 +87,7 @@ export const portfolioData: PortfolioData = {
           period: '2023.03 - 2023.12',
           summary: 'LG전자 스마트홈 하이브리드 앱 공통컴포넌트 팀 운영업무',
           skills: [
-            'React',
+            'React.js',
             'Javascript',
             'Recoil',
             'Styled-component',
@@ -115,7 +115,8 @@ export const portfolioData: PortfolioData = {
         '의뢰자가 견적·포트폴리오·메시지를 비교해 업체/개인을 선택하는 경쟁입찰 플랫폼',
       description: '현재 모바일 앱(React Native) MVP 모델을 개발 중 입니다.',
       skills: [
-        'React Native (Expo),Next.js',
+        'React Native(Expo)',
+        'Next.js',
         'Typescript',
         'Zustand',
         'React Query',

@@ -11,12 +11,12 @@ interface HeaderProps {
 
 export function Header({ name, title, contact }: HeaderProps) {
   return (
-    <header className='px-[90px] pb-5 pt-10'>
+    <header className='px-[90px] pb-5 pt-10 md:px-[90px]'>
       <motion.h1
         initial={{ opacity: 0, y: -20 }} // 위에서 시작
         animate={{ opacity: 1, y: 0 }} // 원래 위치로
         transition={{ duration: 0.6, delay: 0 }}
-        className='mt-8 mb-0.5 text-6xl font-medium'
+        className='mt-8 mb-0.5 text-6xl font-medium md:text-6xl'
       >
         {name}
       </motion.h1>
@@ -24,7 +24,7 @@ export function Header({ name, title, contact }: HeaderProps) {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className='m-0 mt-2 text-3xl font-light'
+        className='m-0 mt-2 text-3xl font-light md:text-3xl'
       >
         {title}
       </motion.h2>
@@ -32,14 +32,14 @@ export function Header({ name, title, contact }: HeaderProps) {
         initial={{ opacity: 0, x: -20 }} // 왼쪽에서 시작
         animate={{ opacity: 1, x: 0 }} // 원래 위치로
         transition={{ duration: 0.6, delay: 0.4 }}
-        className='mt-4 flex items-center'
+        className='mt-4 flex items-center md:flex-row'
       >
-        <h4 className='mb-0 mr-5 font-light'>이메일</h4>
+        <h4 className='mb-0 mr-5 font-light md:mr-5'>이메일</h4>
         <a
           href={`mailto:${contact.email}`}
           className='text-black no-underline transition-colors hover:text-gray-600 hover:underline'
         >
-          <h4 className='mb-0 font-light'>{contact.email}</h4>
+          <h4 className='mb-0 font-light break-all'>{contact.email}</h4>
         </a>
       </motion.div>
       <motion.div

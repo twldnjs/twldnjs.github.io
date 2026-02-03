@@ -13,7 +13,7 @@ export const portfolioData: PortfolioData = {
     {
       company: '(주) 티윈',
       position: 'Frontend Engineer',
-      period: '2023.02 - 2025.11 (2년 9개월)',
+      period: '2023.02 - 2025.11 \n(2년 9개월)',
       tagline:
         '대규모 사용자 기반의 LG전자 웹/모바일 앱의 운영/고도화/신규 기능 개발을 담당했습니다.',
       projects: [
@@ -43,7 +43,7 @@ export const portfolioData: PortfolioData = {
           title: 'LG MyCup App',
           period: '2024.07 - 2025.05',
           summary:
-            '텀블러 세척 관리 앱 (Flutter 앱 내 WebView 프론트 영역 운영)',
+            '텀블러 세척 관리 앱을 Flutter 앱 내 WebView 프론트 영역 운영',
           skills: [
             'React',
             'Javascript',
@@ -111,8 +111,9 @@ export const portfolioData: PortfolioData = {
       name: 'BIDDLY',
       period: '2025. 12 - 진행 중',
       githubLink: 'https://github.com/twldnjs',
-      description:
-        '의뢰자가 견적·포트폴리오·메시지를 비교해 업체/개인을 선택하는 경쟁입찰 플랫폼. 현재 모바일 앱(React Native) MVP 모델을 개발 중입니다',
+      title:
+        '의뢰자가 견적·포트폴리오·메시지를 비교해 업체/개인을 선택하는 경쟁입찰 플랫폼',
+      description: '현재 모바일 앱(React Native) MVP 모델을 개발 중 입니다.',
       skills: [
         'React Native (Expo),Next.js',
         'Typescript',

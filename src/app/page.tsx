@@ -14,7 +14,7 @@ export default function Home() {
         contact={portfolioData.contact}
       />
 
-      <main className='flex flex-col gap-28 px-[90px]'>
+      <main className='flex flex-col gap-16 px-5 pb-20 md:gap-28 md:px-[90px]'>
         <Introduction introduction={portfolioData.introduction} />
 
         <WorkExperience experiences={portfolioData.workExperiences} />

@@ -31,7 +31,10 @@ export function Projects({ projects }: ProjectsProps) {
                 </a>
               </div>
               <div className='flex-1'>
-                <h3 className='text-xl font-semibold'>{project.description}</h3>
+                <h3 className='text-xl font-semibold'>{project.title}</h3>
+                <h4 className='text-l font-semibold my-2'>
+                  {project.description}
+                </h4>
                 <div className='mb-3 flex flex-wrap gap-2'>
                   {project.skills.map((skill, idx) => (
                     <motion.div

@@ -29,12 +29,15 @@ export function WorkExperience({ experiences }: WorkExperienceProps) {
   return (
     <Section title='Work Experience.'>
       <Divider />
-      <div className='flex flex-col gap-24'>
+      <div className='flex flex-col gap-12 md:gap-24'>
         {experiences.map((exp, index) => (
           <FadeIn key={index} delay={index * 0.1}>
-            <div key={index} className='flex'>
+            <div
+              key={index}
+              className='flex flex-col gap-4 md:flex-row md:gap-0'
+            >
               {/* Left */}
-              <div className='w-1/5'>
+              <div className='w-full md:w-1/5'>
                 <h3 className='text-xl font-semibold'>{exp.company}</h3>
                 <p className='my-2.5'>{exp.position}</p>
                 <p className='my-2.5'>{exp.period}</p>
@@ -57,13 +60,13 @@ export function WorkExperience({ experiences }: WorkExperienceProps) {
                           <h4 className='text-lg font-semibold'>
                             {proj.title}
                           </h4>
-                          <div className='text-sm text-neutral-600'>
+                          <div className='whitespace-pre-line text-justify text-sm text-neutral-600 '>
                             {proj.period}
                           </div>
                         </div>
 
                         {proj.summary ? (
-                          <p className='mt-2 text-neutral-800'>
+                          <p className='text-l font-semibold my-2'>
                             {proj.summary}
                           </p>
                         ) : null}
@@ -116,25 +119,6 @@ export function WorkExperience({ experiences }: WorkExperienceProps) {
                     </div>
                   ))}
                 </div>
-                {/* <div className='mb-3 flex flex-wrap gap-2'>
-                  {exp.projects.map((proj, projIndex) => (
-                    <motion.div
-                      key={idx}
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: idx * 0.05 }}
-                    >
-                      <Badge>{skill}</Badge>
-                    </motion.div>
-                  ))}
-                </div>
-                <ul className='list-disc pl-5'>
-                  {exp.achievements.map((achievement, idx) => (
-                    <li key={idx} className='pb-3'>
-                      {achievement}
-                    </li>
-                  ))}
-                </ul> */}
               </div>
             </div>
           </FadeIn>

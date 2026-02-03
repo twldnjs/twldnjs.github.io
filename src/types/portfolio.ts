@@ -22,6 +22,7 @@ export type WorkProject = {
 
 export interface Project {
   name: string;
+  title: string;
   period: string;
   githubLink: string;
   description: string;

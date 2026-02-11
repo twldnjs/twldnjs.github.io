@@ -8,14 +8,14 @@ export const portfolioData: PortfolioData = {
     github: 'github.com/twldnjs',
   },
   introduction:
-    '안녕하세요, 프론트엔드 개발자 손지원입니다.\n협업하는 동료가 편하게 읽고 바로 이해할 수 있는 코드를 지향합니다. \n당장의 기능 구현을 넘어 유지보수가 용이한 코드를 고민하는 과정이 비즈니스의 안정성을 지키고 미래의 저를 성장시킨다고 믿습니다.',
+    '안녕하세요, 프론트엔드 개발자 손지원입니다.\n협업하는 동료가 편하게 읽고 바로 이해할 수 있는 코드를 지향합니다.',
   workExperiences: [
     {
       company: '(주) 티윈',
       position: 'Frontend Engineer',
       period: '2023.02 - 2025.11 \n(2년 9개월)',
       tagline:
-        '대규모 사용자 기반의 LG전자 웹/모바일 앱의 운영/고도화/신규 기능 개발을 담당했습니다.',
+        'LG전자 TV 커머스 앱과 WebView 기반 모바일 앱의 핵심 화면을 운영하며, 기능 고도화와 신규 기능 개발로 사용자 경험을 개선했습니다.',
       projects: [
         {
           title: 'LG ShopTime TV App',
@@ -29,6 +29,7 @@ export const portfolioData: PortfolioData = {
             'CSS Modules',
           ],
           achievements: [
+            '다국어/다국가 운영(4개국: 독/러/영/미): Enact i18n 기반 번역 리소스 관리, 국가/언어별 UI·문구 이슈 대응 및 QA 반영',
             '상세 페이지 리뉴얼: 복잡한 옵션 조합 처리를 위한 Redux 상태 관리 재설계, 옵션 선택·수량·가격 계산 로직 구현',
             '리뷰 시스템 신규 개발: Enact 기반 리모컨 포커스 제어 로직 적용한 리뷰 작성·조회·정렬 기능 구현',
             '운영 안정화: QA 피드백 기반 UI/로직 개선 및 공통 컴포넌트 유지보수 유지보수 및 오류 케이스 대응',
